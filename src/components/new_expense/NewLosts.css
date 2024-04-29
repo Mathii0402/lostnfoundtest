@@ -1,0 +1,48 @@
+.new-losts {
+ 
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+
+    text-align: center;
+    /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.06);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.2px);
+-webkit-backdrop-filter: blur(6.2px);
+border: 1px solid rgba(255, 255, 255, 0.07);
+  }
+  
+  .new-losts button {
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #FA7268;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    
+
+  }
+  
+  .new-losts button:hover,
+  .new-losts button:active
+  {
+    background-color: #EF5F67;
+    border-color: #EF5F67;
+  }
+  
+  .new-losts button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-losts button.alternative:hover,
+  .new-losts button.alternative:active {
+    background-color: #ddb3f8;
+  }
